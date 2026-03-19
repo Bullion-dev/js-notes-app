@@ -13,9 +13,10 @@
 module.exports = {
   // "content" tells Tailwind which files to scan for class names
   content: [
-  "./*.html",         // Looks in the root
-  "./src/**/*.html",  // This tells Tailwind: "Go inside 'src' and look for HTML files"
-  "./js/**/*.js"      // Looks in your JS folder
+  "./*.html",
+  "./*.js",
+  "./src/**/*.html",
+  "./js/**/*.js"
 ],
 
   theme: {
